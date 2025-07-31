@@ -1,0 +1,108 @@
+{
+  "HomePage": {
+    "title": "Bonjour le monde",
+    "about": "Aller a la page apropos"
+  },
+  "Hero": {
+    "text0": "Je conçois des solutions logicielles innovantes, performantes et sur mesure."
+  },
+  "about": {
+    "title": "A Propos",
+    "text": "Développeur passionné par la création de sites web innovants et d'applications web, mobiles et desktop. Expérience académique et personnelle en développement front-end et back-end. Toujours à la recherche de nouvelles expériences et de nouveaux défis.",
+    "button": "TELECHARGER CV",
+    "experience1": "C",
+    "experience2": "OMPÉTENCE",
+    "text2": "Conception visuelle, Conception ERP personnalisée, Modélisation de données, Architecture Logicielle",
+    "softskill1": "C",
+    "softskill2": "OMPETENCE GENERALES",
+    "cardTitle1": "LANGAGES",
+    "cardTitle2": "FRAMEWORKS/OUTILS",
+    "cardTitle3": "AUTRES",
+    "exprerience21": "E",
+    "experience22": "XPERIENCE",
+    "Edu-certi1": "E",
+    "Edu-certi2": "DUCATION / CERTIFICATION",
+    "school": "INSTITUT UNIVERSITAIRE SIANTOU",
+    "diploma1": "LICENCE GENIE LOGICIEL",
+    "diplomatext": "J’ai obtenu une licence en Génie Logiciel, une formation axée sur la conception, le développement et la maintenance de logiciels de qualité. Durant mon cursus, j’ai acquis de solides compétences en programmation orientée objet, en conception de bases de données, et en développement web et mobile. J’ai également participé à plusieurs projets pratiques en équipe, ce qui m’a permis de renforcer mes compétences en gestion de projet et en collaboration agile. Cette formation m’a donné une vision complète du cycle de vie d’un logiciel, de l’analyse des besoins à la mise en production.",
+    "datediploma1": "Mai. 2025",
+    "diploma2": "BTS Software Engineering",
+    "diploma2text": "J’ai obtenu un BTS en Génie Logiciel, une formation technique centrée sur les fondamentaux du développement et de la conception de logiciels. Pendant ce cursus, j’ai appris à développer des applications web, mobiles et de bureau, en mettant l’accent sur la logique, la qualité du code et la résolution de problèmes. J’ai également participé à des projets pratiques encadrés, réalisés en équipe, avec des phases d’analyse, de modélisation, de codage et de tests. Ce parcours m’a permis de bâtir une base solide en programmation, en gestion de bases de données et en méthodes de développement logiciel.",
+    "datediploma2": "Aout. 2023",
+    "ipercashcertif": "Certificat de fin de formation en développement Web",
+    "ipercashcertiftext": "J’ai suivi une formation certifiante chez Ipercah en développement web moderne, axée sur l’utilisation de Tailwind CSS, React, Next.js et Firebase. Cette formation m’a permis de maîtriser le développement d’interfaces dynamiques, responsives et performantes, tout en intégrant des services back-end avec Firebase. À travers des projets concrets, j’ai renforcé mes compétences en développement full-stack JavaScript.",
+    "dateipercash": "Juillet. 2023 - Avril 2024",
+    "cyonCertification": "Certificat de fin de formation en développement Web et gestion de base de donnés ",
+    "cyonCertificationtext": "J’ai suivi une formation en développement web avec PHP et en gestion de base de données. Cette formation m’a permis d’acquérir des compétences solides en programmation back-end, en création de sites dynamiques, et en manipulation de bases de données relationnelles comme MySQL. J’y ai également appris à structurer proprement le code et à gérer les interactions entre le client et le serveur de manière sécurisée.",
+    "datecyon": "Juin. 2022 - Aout 2022",
+    "shiftHousePoste": "Concepteur de site Web",
+    "shiftHousedate": "Nov 2024 - Fév 2025",
+    "shiftHousetexte": "Nous avons développé un site web dynamique avec Next.js pour présenter les offres et services liés à la construction immobilière. Ce site communique avec une API CodeIgniter qui gère les données des projets, des clients et des réservations. Un système de paiement en ligne a été intégré pour permettre aux utilisateurs de réserver ou financer leurs projets de construction directement via la plateforme.",
+    "devupsolutionposte": "Directeur / Réalisateur de sites Internet",
+    "devupsolutiontext": "Nous avons conçu le site officiel de La Dev-Up Solution avec Next.js, afin de présenter nos services de développement logiciel et de création web de manière professionnelle et moderne. Une API CodeIgniter permet de gérer les demandes des clients, les projets, ainsi que les inscriptions aux offres. Un système d’emailing automatique a été intégré pour envoyer des confirmations, des notifications et des suivis personnalisés aux utilisateurs.",
+    "devupsolutiondate": "Depuis March. 2024",
+    "echocollecteposte": "analyste fonctionnel",
+    "echocollectetext": "J’ai réalisé l’analyse fonctionnelle complète de l’application ÉchoCollecte, une solution de gestion et de suivi des activités de collecte de déchets. Cette phase a permis de définir les besoins utilisateurs, les cas d’usage, les modèles de données, ainsi que les flux de travail, en vue d’assurer une conception cohérente et efficace. Des spécifications détaillées, des maquettes d’écrans et un planning estimatif ont été produits pour guider les phases de développement.",
+    "echocollectedate": "Mar 2024",
+    "hide": "Reduire",
+    "show": "Deplier"
+  },
+  "projet": {
+    "title0":"Projets Recents",
+    "projettext": "Voici quelques-uns de mes projets préférés récemment. N'hésitez pas à les consulter.",
+    "typeprodevup": "Site internet",
+    "dateprodevup": "Mar. 2024",
+    "textprojetdevup": "J’ai réalisé le site internet de La Dev-Up Solution, de la phase de maquettage jusqu’à la mise en ligne. La Dev-Up Solution est une jeune entreprise spécialisée dans les services informatiques.",
+    "typeproshift": "Site Internet",
+    "dateproshift": "Fev 2025",
+    "textproshift": "Nous avons réalisé, en collaboration avec un autre développeur, le site web de Shift House, une firme spécialisée dans la construction et la fourniture de services innovants dans le domaine de l’habitat.",
+    "typeproportfo": "Figma Design",
+    "dateproportfo": "Fev 2025",
+    "textproportfo": "Nous avons fait le conception graphique de notre portfolio avant l'etape de codage .",
+    "typeproflayer": "Figma Design",
+    "dateproflayer": "Dec 2024",
+    "textproflayer": "Nous avons conçu des maquettes Figma dans le but de promouvoir La Dev-Up Solution et les services qu’elle propose."
+  },
+
+  "testimonies": {
+    "title1": "T",
+    "title2": "emoignages",
+    "director": "directeur",
+    "dev": "developpeur",
+    "directorTestimony":"Il est tout à fait possible de lui confier des tâches liées à un projet, voire à plusieurs. Ce qui m’a particulièrement marqué, c’est le suivi des projets même après leur livraison.",
+    "developerTestimony":"Ayant travaillé avec Kevin Kotte sur plusieurs projets tels que Shift House et Community App, je peux vous garantir la qualité de ses services ainsi qu’une véritable passion pour la recherche de solutions."
+  },
+
+  "services": {
+    "title": "Services",
+
+    "titledatabase": "Conception de bases de données",
+    "textdatabase": "Je conçois et optimise des bases de données SQL/NoSQL pour la performance, la structure et la fiabilité.",
+
+    "titlefullstack": "Développement Web Full-Stack",
+    "textfullstack": "Je développe des applications web complètes avec des frameworks modernes comme React, Next.js et NestJS — de l’interface utilisateur à la base de données.",
+
+    "titlesaasdash": "SaaS & Tableaux de bord",
+    "textsaasdash": "Je crée des panneaux d'administration personnalisés et des plateformes SaaS avec analyses et gestion des utilisateurs.",
+
+    "titleAuth&secu": "Authentification & Sécurité",
+    "textAuth&secu": "Je mets en place des systèmes de connexion (JWT, OAuth2, Google) avec les meilleures pratiques de sécurité.",
+
+    "titleDevOpDeploy": "DevOps & Déploiement",
+    "textDevOpDeploy": "Je gère Docker, CI/CD et la configuration des serveurs pour garantir des déploiements fluides et évolutifs.",
+
+    "titleMentoring": "Mentorat",
+    "textMentoring": "J’aide les développeurs juniors à progresser via des revues de code, des conseils et un accompagnement pratique."
+  },
+
+    "Get In Touch": {
+    "title1": "Entrer en contact",
+    "text":"N'hésitez pas à me contacter. Que vous ayez une question ou que vous souhaitiez simplement discuter de design, de technologie ou d'art, n'hésitez pas à m'envoyer un message.",
+
+    "reach":"ME CONTACTER SUR",
+    "smedia":"RESEAUX SOCIAUX",
+    "hello":"CONTACTER"
+
+  }
+
+}

@@ -1,0 +1,127 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Hero": {
+    "text0": "I design innovative, high-performance, and tailor-made software solutions."
+  },
+  "about": {
+    "title": "About Me",
+    "text": "Developer passionate about creating innovative websites and web, mobile, and desktop applications. Academic and personal experience in front-end and back-end development. Always looking for new experiences and challenges",
+    "button": "DOWNLOAD CV",
+    "experience1": "E",
+    "experience2": "XPERTISE",
+    "text2": "Visual Design, Custom ERP Design, Data Modeling, Software architecture",
+    "softskill1": "S",
+    "softskill2": "OFTSKILLS",
+    "cardTitle1": "LANGUAGES",
+    "cardTitle2": "FRAMEWORKS/TOOLS",
+    "cardTitle3": "OTHERS",
+
+
+    "exprerience21": "E",
+    "experience22": "XPERIENCE",
+    "Edu-certi1": "E",
+    "Edu-certi2": "DUCATION / CERTIFICATION",
+
+    "school":"SIANTOU UNIVERSITY INSTITUE",
+    "diploma1":"Bachelor of Science in Software Engineering",
+    "diplomatext":"I earned a bachelor's degree in Software Engineering, a program focused on the design, development, and maintenance of quality software. During my studies, I acquired solid skills in object-oriented programming, database design, and web and mobile development. I also participated in several practical team projects, which allowed me to strengthen my skills in project management and agile collaboration. This training gave me a complete vision of the software life cycle, from needs analysis to production launch.",
+    "datediploma1":"May. 2025",
+
+    "diploma2":"BTS Software Engineering",
+    "diploma2text":"I obtained a BTS in Software Engineering, a technical degree focused on the fundamentals of software design and development. During this program, I learned to build web, mobile, and desktop applications, with an emphasis on logic, code quality, and problem-solving. I also took part in supervised team projects, involving phases of analysis, modeling, coding, and testing. This training gave me a strong foundation in programming, database management, and software development methodologies.",
+    "datediploma2":"August. 2025",
+
+    "ipercashcertif":"Certificate of Completion of training in web development",
+    "ipercashcertiftext":"I completed a certification program at Ipercah focused on modern web development using Tailwind CSS, React, Next.js, and Firebase. This training allowed me to master the creation of dynamic, responsive, and high-performance interfaces while integrating back-end services with Firebase. Through hands-on projects, I strengthened my full-stack JavaScript development skills.",
+    "dateipercash":"July. 2023 - April 2024",
+
+    "cyonCertification":"Certificate of completion of training in web development and database management",
+    "cyonCertificationtext":"I completed a training program in web development with PHP and database management. This program helped me build strong skills in back-end programming, creating dynamic websites, and handling relational databases like MySQL. I also learned how to structure clean code and manage client-server interactions securely.",
+    "datecyon":"June. 2022 - August 2022",
+
+
+  "shiftHousePoste": "Web Developer",
+  "shiftHousedate": "Nov 2024 - Feb 2025",
+  "shiftHousetexte": "We developed a dynamic website using Next.js to showcase real estate construction services and offers. This site communicates with a CodeIgniter API that manages project, client, and booking data. An online payment system was integrated to allow users to directly reserve or fund their construction projects through the platform.",
+
+  "devupsolutionposte": "Director / Website Project Lead",
+  "devupsolutiontext": "We designed the official website of La Dev-Up Solution using Next.js to professionally showcase our software development and web creation services. A CodeIgniter API handles client requests, projects, and subscription to offers. An automatic emailing system was integrated to send confirmations, notifications, and personalized follow-ups to users.",
+  "devupsolutiondate": "Since Mar. 2024",
+
+  "echocollecteposte": "Functional Analyst",
+  "echocollectetext": "I conducted the full functional analysis of the ÉchoCollecte application, a solution for managing and monitoring waste collection activities. This phase involved defining user needs, use cases, data models, and workflows to ensure consistent and efficient design. Detailed specifications, screen mockups, and an estimated timeline were produced to guide the development phases.",
+  "echocollectedate": "Mar 2024",
+  "hide":"Hide",
+  "show":"Show"
+
+  },
+    "projet": {
+    "title0":"Recent projects",
+    "projettext": "Here are some of my favorite projects I have done lately. Feel free to check them out.",
+
+    "typeprodevup":"Web site",
+    "dateprodevup":"March. 2024",
+    "textprojetdevup":"I created the La Dev-Up Solution website, from the design phase to its online launch. La Dev-Up Solution is a young company specializing in IT services, such as the design, implementation, and security of websites and web applications, the creation of information systems and databases, cloud computing, IT consulting, and digital marketing.",
+
+    "typeproshift":"Web Site",
+    "dateproshift":"Feb 2025",
+    "textproshift":"We have created, in collaboration with another developer, the Shift House website, a firm working in construction and offering services related to innovation in the field of housing.",
+    
+    "typeproportfo":"Figma Design",
+    "dateproportfo":"Feb 2025",
+    "textproportfo":"we did the graphic design of our portfolio before the coding stage .",
+    
+
+    "typeproflayer":"Figma Design",
+    "dateproflayer":"Dec 2024",
+    "textproflayer":"We designed figma models to promote the dev-up solution and the services it offers."
+
+  },
+    "testimonies":{
+    "title1":"T",
+    "title2":"estimonies",
+
+    "director":"director",
+    "dev":"developer",
+    "directorTestimony":"It is entirely possible to entrust him with tasks belonging to one or more projects. But I was impressed by the follow-up of the projects after delivery.",
+    "developerTestimony":"Having worked with Kevin Kotte on several projects such as Shift House and Community App, I can guarantee you good quality service and a certain passion for solving problems."
+    
+  },
+
+  "services":{
+
+    "title":"Services",
+
+    "titledatabase":"Database design",
+    "textdatabase":"I design and optimize SQL/NoSQL databases for performence, structure, and reliability",
+
+    "titlefullstack":"Full-Stack Web Development",
+    "textfullstack":"I build complete web apps using modern frameworks like React, Next.js, and NestJS — from UI to database.",
+
+    "titlesaasdash":"SaaS & Dashboards",
+    "textsaasdash":"I develop custom admin panels and SaaS platforms with analytics and user control.",
+
+    "titleAuth&secu":"Authentication & Security",
+    "textAuth&secu":"I implement login systems (JWT, OAuth2, Google) with solid security best practices.",
+
+    "titleDevOpDeploy":"DevOps & Deployment",
+    "textDevOpDeploy":"I handle Docker, CI/CD, and server setup to ensure smooth and scalable deployments.",
+
+    "titleMentoring":"Mentoring",
+    "textMentoring":"I help junior devs grow through code reviews, tips, and real-world guidance."
+  },
+
+    "Get In Touch": {
+    "title1": "Get In Touch",
+    "text":"I love to hear from you. Whether you have a question or just want to chat about design, tech & art — shoot me a message.",
+
+    "reach":"REACH ME AT",
+    "smedia":"SOCIAL MEDIA",
+    "hello":"SAY HELLO."
+
+
+  }
+}

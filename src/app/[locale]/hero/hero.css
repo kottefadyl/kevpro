@@ -1,0 +1,8 @@
+.welcome1 {
+    position: relative; /* Nécessaire pour positionner l'overlay */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 66vh; Pour que l'image prenne tout l'écran */
+}
+
