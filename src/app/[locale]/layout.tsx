@@ -8,6 +8,7 @@ import { Link } from "@/i18n/navigation";
 import { ThemeProvider } from "@/compo-provider/theme-provider";
 import Header from "./header/header";
 import Footer from "./footer/footer";
+import BottomNav from "../[locale]/generalCompo/BottomNav"; // adapte le chemin
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -76,7 +77,7 @@ export default async function LocaleLayout({
   const oppositeLocale = locale === "en" ? "fr" : "en";
 
   return (
-    <html lang={locale} className="dark">
+    <html lang={locale} className="dark scroll-smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} ${cardo.variable} ${gloock.variable} ${joti_One.variable} ${caprasimo.variable} ${hanuman.variable} ${inknut_Antiqua.variable} antialiased`}>
         <link
           rel="stylesheet"
@@ -103,6 +104,7 @@ export default async function LocaleLayout({
           >
             <Header />
             {children}
+             <BottomNav />
             <Footer/>
           </ThemeProvider>
         </NextIntlClientProvider>

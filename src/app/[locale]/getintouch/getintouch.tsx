@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Title1 } from '../generalCompo/title1';
 import { useTranslations } from 'next-intl';
+import { motion, AnimatePresence } from "framer-motion";
 import { FaFacebookF, FaWhatsapp, FaXTwitter, FaGithub } from 'react-icons/fa6';
 
 export default function Getintouch() {
@@ -45,49 +46,80 @@ export default function Getintouch() {
         </div>
       </div>
 
-      {/* MODAL */}
-      {isOpen && (
-        <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex items-center justify-center">
-          <div className="bg-white dark:bg-[#292D29] w-[90%] max-w-lg p-6 rounded-xl shadow-xl relative">
-            <button onClick={closeModal} className="absolute top-2 right-4 text-2xl font-bold">&times;</button>
-            <h2 className="text-xl font-bold mb-4 font-[caprasimo]">{t('hello')}</h2>
+{/* MODAL */}
+<AnimatePresence>
+  {isOpen && (
+    <motion.div
+      initial={{ opacity: 0 }} // apparition progressive du backdrop
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3 }}
+      className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-sm bg-black/60"
+    >
+      {/* Bouton de fermeture */}
+      <button
+        onClick={closeModal}
+        className="absolute top-4 right-6 text-3xl font-bold text-neutral-300 hover:text-white transition"
+      >
+        &times;
+      </button>
 
-            <form className="space-y-4">
-              <input
-                type="text"
-                placeholder="Votre nom"
-                className="w-full p-2 border rounded focus:outline-none"
-              />
-              <input
-                type="email"
-                placeholder="Votre email"
-                className="w-full p-2 border rounded focus:outline-none"
-              />
-              <textarea
-                placeholder="Votre message"
-                rows={4}
-                className="w-full p-2 border rounded focus:outline-none"
-              ></textarea>
-              <button
-                type="submit"
-                className="bg-[#B12929] hover:bg-black text-white px-4 py-2 rounded font-[gloock]"
-              >
-                Envoyer
-              </button>
-            </form>
-
-            <div className="mt-6 text-center text-sm text-gray-500">
-              Ou contactez-moi via :
-              <div className="flex justify-center gap-4 mt-2 text-lg">
-                <a href="https://facebook.com" target="_blank"><FaFacebookF /></a>
-                <a href="https://wa.me/237651448956" target="_blank"><FaWhatsapp /></a>
-                <a href="https://x.com" target="_blank"><FaXTwitter /></a>
-                <a href="https://github.com" target="_blank"><FaGithub /></a>
-              </div>
+      {/* Contenu du modal avec animation */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8, y: 50 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.8, y: 50 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+        className="md:flex md:flex-row-reverse bg-neutral-100 dark:bg-[#1F1F1F] rounded-md shadow-2xl overflow-hidden w-[90%] max-w-4xl"
+      >
+        {/* Colonne droite (Image & Réseaux sociaux) */}
+        <div className="w-full md:w-1/2 relative bg-[url('/images/painting1.png')] bg-cover bg-center flex flex-col items-center justify-center p-6 text-white">
+          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="relative z-10 text-center">
+            <h1 className="text-2xl font-bold font-[caprasimo]">{t("smedia")}</h1>
+            <p className="font-[hanuman] text-lg mt-2">{t("otherContact")}</p>
+            <div className="flex justify-center gap-4 mt-4 text-4xl">
+              <a href="https://facebook.com" target="_blank" className="hover:text-blue-400 transition"><FaFacebookF /></a>
+              <a href="https://wa.me/237651448956" target="_blank" className="hover:text-green-400 transition"><FaWhatsapp /></a>
+              <a href="https://x.com" target="_blank" className="hover:text-gray-300 transition"><FaXTwitter /></a>
+              <a href="https://github.com/kottefadyl?tab=repositories" target="_blank" className="hover:text-purple-400 transition"><FaGithub /></a>
             </div>
           </div>
         </div>
-      )}
+
+        {/* Colonne gauche (Formulaire) */}
+        <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
+          <h2 className="text-2xl font-bold mb-6 font-[caprasimo] text-[#B12929]">{t("hello")}</h2>
+
+          <form className="space-y-4">
+            <input
+              type="text"
+              placeholder={t("name")}
+              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#B12929]"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#B12929]"
+            />
+            <textarea
+              placeholder="Message"
+              rows={4}
+              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#B12929]"
+            ></textarea>
+            <button
+              type="submit"
+              className="bg-[#B12929] hover:bg-black text-white px-6 py-3 rounded-md w-full md:w-auto font-[gloock] transition"
+            >
+              Envoyer
+            </button>
+          </form>
+        </div>
+      </motion.div>
+    </motion.div>
+  )}
+</AnimatePresence>
+
     </div>
   );
 }

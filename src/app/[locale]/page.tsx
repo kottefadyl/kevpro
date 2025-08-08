@@ -17,7 +17,6 @@ export default function HomePage() {
         <section id= 'recentproject'><Recentpr/></section>
         <section id='servicepart'><Servicepart/></section>
         <section id='getintouch'><Getintouch/></section>
-
       </main>
     </div>
   );

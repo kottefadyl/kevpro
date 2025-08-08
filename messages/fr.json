@@ -101,7 +101,9 @@
 
     "reach":"ME CONTACTER SUR",
     "smedia":"RESEAUX SOCIAUX",
-    "hello":"CONTACTER"
+    "hello":"CONTACTER",
+    "name":"name",
+    "otherContact":"Contecter moi via les plateformes :"
 
   }
 

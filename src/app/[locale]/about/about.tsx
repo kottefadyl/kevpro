@@ -15,17 +15,19 @@ export default function About() {
 
             <div className='lg:flex md:justify-center items-center lg:gap-5'>
                 <div className='lg:w-2/4 w-full text-center '>
-                    <Title1 text={t('title')}/>
+                    <Title1 text={t('title')} />
                     <p className='font-[hanuman] text-lg mt-10'>
                         {t('text')}
                     </p>
 
-                    <button className='
-                rounded-xs font-[gloock] bg-[#B12929] text-white lg:h-10 h-16 w-72 text-sm mt-12 
-                hover:bg-neutral-200 cursor-pointer hover:text-black duration-200
-                '>
-                        {t('button')}
-                    </button>
+                    <a href="/files/A4CVKotte-1.pdf" download>
+                        <button className='
+        rounded-xs font-[gloock] bg-[#B12929] text-white lg:h-10 h-16 w-72 text-sm mt-12 
+        hover:bg-neutral-200 cursor-pointer hover:text-black duration-200
+    '>
+                            {t('button')}
+                        </button>
+                    </a>
                 </div>
                 <div className='lg:w-2/4  w-full items-center '>
                     <Image
@@ -37,14 +39,14 @@ export default function About() {
             </div>
 
             <div className='mt-28'>
-                <Title2 text1={t('experience1')} text2={t('experience2')}/>
+                <Title2 text1={t('experience1')} text2={t('experience2')} />
                 <p className='font-[inknut_Antiqua] text-3xl font-bold mt-10'>
                     {t('text2')}.
                 </p>
             </div>
 
             <div className='mt-56 mb-32 text-center'>
-                <Title2 text1={t('softskill1')} text2={t('softskill2')}/>
+                <Title2 text1={t('softskill1')} text2={t('softskill2')} />
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6">

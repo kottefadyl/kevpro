@@ -21,10 +21,10 @@ export default function Recentpr() {
       </p>
 
       <div className='grid grid-cols-2  mx-auto'>
-        <ProjetItem intitul='Dev-up Solution' type={t('typeprodevup')} date={t('dateprodevup')} text={t('textprojetdevup')} img={devup} />
-        <ProjetItem intitul='Shift House' type={t('typeproshift')} date={t('dateproshift')} text={t('textproshift')} img={shift} />
-        <ProjetItem intitul='My Portfolio' type={t('typeproportfo')} date={t('dateproportfo')} text={t('textproportfo')} img={portfol} />
-        <ProjetItem intitul='Dev-up Solution' type={t('typeproflayer')} date={t('dateproflayer')} text={t('textproflayer')} img={flayer} />
+        <ProjetItem intitul='Dev-up Solution' type={t('typeprodevup')} date={t('dateprodevup')} text={t('textprojetdevup')} img={devup} url={'https://www.figma.com/proto/d8V4Ojs2Mnd17Bn0W81MMS/Untitled?node-id=1-5'}/>
+        <ProjetItem intitul='Shift House' type={t('typeproshift')} date={t('dateproshift')} text={t('textproshift')} img={shift} url={'https://shifthousetest1.knx-edge4africa.com/'}/>
+        <ProjetItem intitul='My Portfolio' type={t('typeproportfo')} date={t('dateproportfo')} text={t('textproportfo')} img={portfol} url={'https://www.figma.com/files/team/1268545871058416803/resources'}/>
+        <ProjetItem intitul='Dev-up Solution' type={t('typeproflayer')} date={t('dateproflayer')} text={t('textproflayer')} img={flayer} url={'https://profolio-dev-up.vercel.app/'}/>
       </div>
 
       <div className='px-4 w-full mt-32 lg:w-10/12  mx-auto'>

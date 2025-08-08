@@ -3,6 +3,7 @@
 import React from "react";
 import Image, { StaticImageData } from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
+import Link from "next/link";
 
 type ModalProps = {
     show: boolean;
@@ -12,9 +13,10 @@ type ModalProps = {
     date: string;
     text: string;
     img: StaticImageData;
+    url:string
 };
 
-export const ModalProjet: React.FC<ModalProps> = ({ show, onClose, intitul, type, date, text, img }) => {
+export const ModalProjet: React.FC<ModalProps> = ({ show, onClose, intitul, type, date, text, img,url }) => {
     return (
         <AnimatePresence>
             {show && (
@@ -38,7 +40,7 @@ export const ModalProjet: React.FC<ModalProps> = ({ show, onClose, intitul, type
                             <h1 className="text-xl text-[#E01C1C] my-3 font-[inknut_Antiqua]">{intitul}</h1>
                             <p className="leading-relaxed text-md text-neutral-700 dark:text-neutral-200">{text}</p>
                             <div className="flex mt-5 mb-4 ml-14 justify-between text-sm">
-                                <h2>{type}</h2>
+                                <Link href={url} className="hover:text-red-800 cursor-pointer duration-100">{type}</Link>
                                 <h2>{date}</h2>
                             </div>
                         </div>

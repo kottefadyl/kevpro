@@ -120,7 +120,9 @@
 
     "reach":"REACH ME AT",
     "smedia":"SOCIAL MEDIA",
-    "hello":"SAY HELLO."
+    "hello":"SAY HELLO.",
+    "name":"name",
+    "otherContact":"Contact me using :"
 
 
   }
